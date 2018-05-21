@@ -1,0 +1,60 @@
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ffffff;
+    font-family: 'Georgia';
+}
+li a {
+    border-right: 1px solid #bbb;
+    border-block-end-style: 50%;
+        
+}
+li:last-child {
+    border-right: none;
+}
+        
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    float:left;
+    background-color:#4aaaa5;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.subtleBody  {
+    background-image: url("../images/circles-dark.png");
+    overflow: auto;
+}
+.aboutMe {
+    background-color: #ffffff; 
+    width: 900px;
+    height: auto; 
+    margin-left: 20%;
+    overflow: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.aboutMeflt {
+    background-color: #ffffff; 
+    width: 960px;
+    height: auto; 
+    margin-left: 20%;
+    float: left;
+}
