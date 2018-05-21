@@ -39,11 +39,12 @@ li a:hover:not(.active) {
 .subtleBody  {
     background-image: url("../images/circles-dark.png");
     overflow: auto;
+    height: 150%;
 }
 .aboutMe {
     background-color: #ffffff; 
     width: 900px;
-    height: auto; 
+    height: auto;
     margin-left: 20%;
     overflow: auto;
     margin-top: 30px;
@@ -51,10 +52,48 @@ li a:hover:not(.active) {
     padding-left: 20px;
     padding-right: 20px;
 }
-.aboutMeflt {
+/* .aboutMeflt {
     background-color: #ffffff; 
     width: 960px;
     height: auto; 
     margin-left: 20%;
     float: left;
 }
+*/
+.formStyle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+}
+.submitBtn{
+    width: 100px;
+    height: 50px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 18px;
+}
+section {
+    float: left;
+    margin: 0 1.5%;
+    width: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bbb;
+  }
+  aside {
+    float: left;
+    margin: 0 1.5%;
+    width: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bbb;
+  }
+  img{
+      width: 250px;
+  }
+  .footer{
+    float:clear;
+    color: #ffffff;
+    background-color: #666666;
+    text-align:center;
+    padding:0 20px;
+    margin-top:0px;
+    line-height: 50px;
+  }
