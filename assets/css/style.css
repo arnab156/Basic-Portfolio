@@ -9,8 +9,7 @@ ul {
 }
 li a {
     border-right: 1px solid #bbb;
-    border-block-end-style: 50%;
-        
+    border-block-end-style: 50%;       
 }
 li:last-child {
     border-right: none;
@@ -37,9 +36,9 @@ li a:hover:not(.active) {
 }
 
 .subtleBody  {
+    height: 700px;
     background-image: url("../images/circles-dark.png");
     overflow: auto;
-    height: 150%;
 }
 .aboutMe {
     background-color: #ffffff; 
@@ -88,12 +87,21 @@ section {
   img{
       width: 250px;
   }
-  .footer{
-    float:clear;
-    color: #ffffff;
-    background-color: #666666;
+  #sticky {
+    float:clear;  
+    width:100%;
+    height:44px;
+    padding-top:20px;
+    background: #666666;
+    color:#ffffff;
+    font-size:16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align:center;
-    padding:0 20px;
-    margin-top:0px;
-    line-height: 50px;
+    position:fixed;    /*Here's what sticks it*/
+    bottom:0;          /*to the bottom of the window*/
+    left:0;            /*and to the left of the window.*/
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 10px;
   }
+  
