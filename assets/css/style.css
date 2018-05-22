@@ -51,6 +51,13 @@ li a:hover:not(.active) {
     padding-left: 20px;
     padding-right: 20px;
 }
+.pageHead {
+    color:#4aaaa5;
+    border-bottom-style: solid;
+    padding-bottom:30px; 
+    border-color: #bbb; 
+    border-width: 3px;
+}
 /* .aboutMeflt {
     background-color: #ffffff; 
     width: 960px;
