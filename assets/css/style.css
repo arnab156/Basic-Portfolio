@@ -13,8 +13,7 @@ li a {
 }
 li:last-child {
     border-right: none;
-}
-        
+}       
 li a {
     display: block;
     color: #777777;
@@ -23,11 +22,9 @@ li a {
     text-decoration: none;
     float: right;
 }
-
 li a:hover:not(.active) {
     background-color: #111;
 }
-
 .active {
     float:left;
     background-color:#4aaaa5;
@@ -58,14 +55,10 @@ li a:hover:not(.active) {
     border-color: #bbb; 
     border-width: 3px;
 }
-/* .aboutMeflt {
-    background-color: #ffffff; 
-    width: 960px;
-    height: auto; 
-    margin-left: 20%;
-    float: left;
+.splitVision{
+    float: left; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-*/
 .formStyle{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
@@ -94,7 +87,11 @@ section {
   img{
       width: 250px;
   }
-  #sticky {
+  caption{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 5px;
+  }
+  #sticky { /* I used a ID because there is only one footer per page */
     float:clear;  
     width:100%;
     height:44px;
